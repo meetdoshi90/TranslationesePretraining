@@ -1,0 +1,13 @@
+tokenizers
+transformers
+tqdm 
+indic-nlp-library
+torch 
+torchvision 
+torchaudio
+accelerate
+numpy
+pandas
+datasets
+sacremoses
+sentencepiece

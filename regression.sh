@@ -1,0 +1,7 @@
+export CUDA_VISIBLE_DEVICES=3
+MODEL_NAME='ft-BI-en_syn-hi_syn-small-extended-en'
+TASK_NAME='stsb'
+NUM_CLASSES=1
+BATCH_SIZE=48
+EPOCHS=20
+python3 regression.py $MODEL_NAME $TASK_NAME $NUM_CLASSES $BATCH_SIZE $EPOCHS
